@@ -18,6 +18,7 @@ function Navbar() {
         <li><Link href="#theater" className="navbar-item"><TiLocationOutline /><span>Theaters</span></Link></li>
         <li><Link href="#search" className="navbar-item"><IoIosSearch /><span>Search</span></Link></li>
         <li><Link href="#account" className="navbar-item"><VscAccount /><span>Account</span></Link></li>
+        <li><Link href="#account" className="navbar-item"><VscAccount /><span>Log in</span></Link></li>
       </ul>
     </nav>
       

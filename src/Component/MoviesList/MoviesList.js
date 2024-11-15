@@ -61,7 +61,7 @@ function MoviesList(props) {
       </Slider>
 
       <div className="movie_header">
-        <h1>Movies</h1>
+        <h1>Movies1</h1>
       </div>
 
 
