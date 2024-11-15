@@ -27,6 +27,7 @@ function App() {
 
   return (
    <>
+   Hello
    <Router>
     <Routes>
       <Route path ='/moviedetails' element={<MovieDetails/>}> </Route>
