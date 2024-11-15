@@ -1,0 +1,22 @@
+.movie_header{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sliderMovieList{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    border-radius: 4px;
+
+}
+
+.SlideMovieList img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+
+}
+  
+

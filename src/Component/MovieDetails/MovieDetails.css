@@ -1,0 +1,31 @@
+.movie-details{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(141, 206, 236);
+    padding: 20px;
+    height: 100vh;/* Take full viewport height */
+    object-fit: cover;
+    justify-content:'center';
+    align-items: center;
+    box-sizing: border-box;/* To prevent padding from affecting the layout */
+
+
+}
+
+.movie-details img {
+    max-width: 100%; /* Ensure the image doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space between the image and text */
+  }
+
+  .movie-details h1 {
+    font-size: 2rem;
+    margin-bottom: 10px; /* Space between the title and the description */
+  }
+
+  .movie-details p {
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 600px; /*  limit the width of the text */
+    margin: 0 auto; /* Center the paragraph text */
+  }
